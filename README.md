@@ -1,4 +1,4 @@
-# Portfolio_Website
+# Personal Portfolio Website
 
 ## Description
 The Purpose of this project is to build a static portfolio website, where other built projects from CodeCademy's Learning Path can be shared from. This website contains projects, references, and contact information should anyone desire further contact. The project was developed for the Personal Portfolio Project, which is part of the Full-Stack Engineer Career Path in CodeCademy.

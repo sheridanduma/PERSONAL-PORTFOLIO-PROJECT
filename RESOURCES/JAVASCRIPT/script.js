@@ -24,3 +24,16 @@ toggle.addEventListener('click', () => {
     bodyCssProps.set('--background', bodyCssProps.get(`--${mode}-background`));
     bodyCssProps.set('--primary', bodyCssProps.get(`--${mode}-primary`));
 });
+
+
+function changeLanguage(languageCode) {
+
+}
+
+const buttons = document.querySelectorAll('.language-btn');
+buttons.forEach(btn => btn.classList.remove('activef'));
+
+const activeButton = Array.from(buttons).find(btn => btn.insertAdjacentText.toLowerCase() === languageCode.toLowerCase());
+    if (activeButton) {
+        activeButton.classList.add('active');
+    }

@@ -17,6 +17,8 @@ The Purpose of this project is to build a static portfolio website, where other 
 + JavaScript
 + Node.js
 
+## How to Use
+Click this link for the live site : https://sheridanduma.github.io/personalportfolio/
 
 ## Status
 The goals for the assignnment have been completed as of April 23, 2024, however additional components for this project are in the progress.

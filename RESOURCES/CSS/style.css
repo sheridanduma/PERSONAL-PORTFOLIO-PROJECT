@@ -250,6 +250,7 @@ nav a {
     border: .5rem solid #031f4e;
 }
 
+
 .banner h2 {
     margin-bottom: 5rem;
 }
@@ -495,4 +496,64 @@ footer {
 
 footer li {
     display: inline-flex;
+}
+
+#language-toggle {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.language-btn {
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.active {
+    background-color: white;
+}
+
+
+
+.dark-mode {
+    color: #031f4e;
+    display: inline-flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: .875rem;
+    cursor: pointer;
+}
+
+.switch-border {
+    display: inline-flex;
+    align-items: center;
+    width: 60px;
+    height: 36px;
+    border: 1px solid #031f4e;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-inline-start: 8px;
+}
+
+.dark-mode input {
+    display: none;
+}
+
+.switch-dot {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #031f4e;
+    transform: translate3d(3px, 0, 0);
+    transition: transform .1s ease-in-out;
+}
+
+.dark-mode input:checked + * .switch-dot{
+    transform: translate3d(26px, 0, 0);
 }

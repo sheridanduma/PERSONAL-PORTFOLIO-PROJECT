@@ -1,16 +1,11 @@
-body {
-    background: var(--background);
-    color: var(--primary);
-      
-      /*The CSS Color Variables*/
-       --dark-background:#031f4e;
-       --dark-primary: rgb(242, 233, 221);
-       
-       --light-background: rgb(242, 233, 221);
-       --light-primary: #031f4e;
-   
-       --background: var(--light-background);
-       --primary: var(--light-primary);
+.dark {
+    background: #031f4e;
+    color: rgb(242, 233, 221);
+}
+
+.light {
+    background: rgb(242, 233, 221);
+    color: #1e64c1;
 }
    
 
@@ -27,6 +22,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 h1 {
@@ -215,6 +211,34 @@ nav a {
     transform: translate3d(26px, 0, 0);
 }
 
+
+/* -------------- TRANSLATE PAGE ------------------ */
+
+.language-toggle {
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0;
+}
+
+.English {
+    color: #031f4e;
+    display: inline-flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: .875rem;
+    cursor: pointer;
+}
+
+.English input {
+    display: none;
+}
+
+.English input:checked + * .switch-dot{
+    transform: translate3d(26px, 0, 0);
+}
+
+
 /* -------------- HEADER STYLES ------------------ */
 
 
@@ -247,7 +271,7 @@ nav a {
     width: 30%;
     height: auto;
     border-radius: 60%;
-    border: .5rem solid #031f4e;
+    border: .5rem solid #1e64c1;
 }
 
 
@@ -366,6 +390,7 @@ section h2 {
 
 .skill-container p {
     font-size: 1rem;
+    color: #031f4e;
     font-family: Montserrat;
     font-weight: bolder;
 
@@ -484,6 +509,8 @@ section h2 {
     }
 }
 
+
+
 /*------------ FOOTER SECTION ------------------*/
 
 footer {
@@ -498,24 +525,4 @@ footer li {
     display: inline-flex;
 }
 
-.language-toggle {
-    display: inline;
-    justify-content: center;
 
-}
-.French input {
-    display: none;
-}
-
-.French input:checked + * .switch-dot{
-    transform: translate3d(26px, 0, 0);
-}
-
-.English input {
-    display: none;
-}
-
-
-.English input:checked + * .switch-dot{
-    transform: translate3d(26px, 0, 0);
-}

@@ -22,3 +22,4 @@ The Purpose of this project is to build a static portfolio website, where other 
 The goals for the assignnment have been completed as of April 23, 2024, however additional components for this project are in the progress.
 
 ## License
+MIT

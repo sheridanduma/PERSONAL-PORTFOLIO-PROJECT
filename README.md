@@ -23,3 +23,4 @@ The goals for the assignnment have been completed as of April 23, 2024, however 
 
 ## License
 MIT
+Copyright (c) 2024 Sheridan Duma
